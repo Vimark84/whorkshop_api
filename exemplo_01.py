@@ -4,12 +4,8 @@ import time
 def numero_aleatorio():
     return random.randint(1,10)
 
-def dobra_um_numero(num):
-    return num * 2
-
 if __name__ == "__main__":
     while True:
         num = numero_aleatorio()
-        resultado = dobra_um_numero(num)
-        print(f"O dobro de {num} é {resultado}")
+        print(num)
         time.sleep(1)
